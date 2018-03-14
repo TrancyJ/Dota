@@ -1,0 +1,217 @@
+/*通用属性*/
+body{
+	font:12px "microsoft yahei",Arail,Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+}
+ul,ol,p,h1,h2,h3,h4,h5,h6,dd,dl{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#777;
+	text-decoration:none;
+}
+a:hover{
+	color:#EF8048;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{
+	vertical-align:bottom;
+}
+object[Attributes Style] {
+    width: 425px;
+    height: 240px;
+}
+param {
+    display: none;
+}
+/***************************************/
+.head_top{
+	width:100%;
+	height:420px;
+	background-image:url(../images/gameintro/header.jpg);
+	position:relative;
+	z-index:-1;
+}
+.head_top:after{
+	content:"";
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:150px;
+	background-image:linear-gradient(to top,#141516,transparent);
+}
+section{
+	width:1200px;
+	min-height:500px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.float_left {
+    width: 241px;
+    float: left;
+    margin-right: 29px;
+}
+.aside_nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.aside_nav ul li {
+    margin-bottom: 8px;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+.aside_nav ul li a.nav {
+    display: block;
+    width: 239px;
+    height: 80px;
+    border: 1px solid transparent;
+    background: url(../images/sidebar_sprites.png) no-repeat;
+}
+.aside_nav ul li a.nav_sp {
+    cursor: default;
+    background-position: -3px -2px;
+}
+.aside_nav ul li a.nav01 {
+    background-position: -3px -92px;
+}
+.aside_nav ul li a.nav02 {
+    background-position: -3px -182px;
+}
+.aside_nav ul li a.nav03 {
+    background-position: -3px -272px;
+}
+.aside_nav ul li a.nav04 {
+    background-position: -3px -362px;
+}
+.aside_nav ul li a.nav05 {
+    background-position: -3px -452px;
+}
+.aside_nav ul li a.nav06 {
+    background-position: -3px -542px;
+}
+.aside_nav ul li a.nav_hover:hover {
+    border-color: #02baf6;
+}
+/******************************************/
+.float_right {
+    width: 930px;
+    float: left;
+    position: relative;
+    background-color: #fff;
+}
+.float_right .float_right_header {
+    width: 100%;
+    height: 66px;
+    background-color: #ededed;
+}
+.clearfix {
+    zoom: 1;
+}
+.float_right_header .page_title {
+    float: left;
+}
+.page_title h2 {
+    position: relative;
+    padding-left: 34px;
+    font-size: 26px;
+    color: rgb(51, 51, 51);
+    line-height: 66px;
+    font-weight: bold;
+}
+.page_title h2::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 4px;
+    height: 26px;
+    background-color: #379be9;
+}
+.float_right_header .page_site {
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    line-height: 66px;
+    color: rgb(102, 102, 102);
+}
+.page_site a {
+    font-size: 14px;
+    line-height: 66px;
+    color: rgb(102, 102, 102);
+    /* position: relative; */
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.section {
+    width: 930px;
+    padding: 80px 0px 0px;
+    line-height: 28px;
+}
+.pd40 {
+    padding-top: 40px;
+}
+.s01 {
+    width: 425px;
+    float: left;
+    height: auto !important;
+    min-height: 240px;
+    height: 240px;
+    margin-left: 40px;
+}
+.s02 {
+    width: 404px;
+    padding: 0px 18px;
+    float: left;
+    height: auto !important;
+    min-height: 240px;
+    height: 240px;
+    color: rgb(102, 102, 102);
+}
+.titB {
+    padding: 0;
+    font-size: 30px;
+    color: rgb(64, 64, 64);
+}
+.titS {
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    padding-left: 2px;
+	padding: 10px 0px;
+}
+.s02 p {
+    font-size: 14px;
+    padding-left: 3px;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.button_conts {
+    width: 850px;
+    clear: both;
+    height: 62px;
+    padding: 40px 0px;
+}
+.button_conts a.btn_down {
+    padding-left: 226px;
+}
+.button_conts a.btn_down {
+    padding-left: 146px;
+}

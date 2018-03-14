@@ -1,0 +1,282 @@
+body{
+	font:12px "microsoft yahei",Arail,Helvetica,sans-serif;
+	background:#eee;
+	padding:0;
+	margin:0;
+}
+header,nav,section,footer{
+	width:1600px;
+	margin:0 auto;
+}
+ul,ol,p,h1,h2,h3,h4,h5,h6,dd,dl{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#777;
+	text-decoration:none;
+}
+a:hover{
+	color:#EF8048;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{
+	vertical-align:bottom;
+}
+
+/* 登录注册界面 */
+#checkin{
+	width:100%;
+	height:100%;
+	margin-top:-10px;
+	position:absolute;
+	top:0;
+	left:0;
+	background:rgba(55,55,55,.6);
+}
+#checkin a:hover{
+	color:#FF6634;
+}
+.checkin_box{
+	position:absolute;
+	width:375px;
+	height:475px;
+	top:50%;
+	left:50%;
+	margin-left:-200px;
+	margin-top:-275px;
+	background:#fff;
+	border-radius:10px;
+}
+.checkin_box ul{
+	height:55px;
+	width:375px;
+	border-bottom:2px solid #eee;
+	padding:0 20px;
+	box-sizing:border-box;
+}
+.checkin_box .current{
+	border-bottom:2px solid #FF6634;
+}
+.checkin_box .current a{
+	color:#FF6634;
+}
+.checkin_box ul li{
+	float:left;
+	height:53px;
+	line-height:53px;
+	margin:0 10px;
+	padding:0 10px;
+	cursor:pointer;
+}
+.checkin_box ul li:last-child{
+	float:right;
+	margin-right:0;
+	padding-right:0;
+	line-height:35px;
+}
+.checkin_box ul li a{
+	font-size:18px;
+}
+.checkin_box .p1{
+	padding:20px 40px;
+}
+.checkin_box .p1 a{
+	display:inline-block;
+	margin:0 20px;
+}
+.checkin_box .p2{
+	font-size:16px;
+	color:#3c3c3c;
+	text-align:center;
+}
+.checkin_box .p3{
+	color:#B3B3B3;
+	padding:5px 30px;
+	text-align:center;
+}
+.checkin_box .p3 i{
+	display:inline-block;
+	border-bottom:1px solid #ececec;
+	width:130px;
+	margin:0 10px;
+	margin-bottom:3px;
+}
+#enter>div:last-child{
+	padding-left:40px;
+	margin-top:20px;
+}
+#enter div:last-child p:first-child{
+	color:#666;
+	font-size:16px;
+}
+.login_input{
+	height:32px;
+	line-height:32px;
+	padding:0 6px;
+	width:245px;
+	margin-top:15px;
+	border:1px solid #d5d5d5;
+	border-radius:4px;
+	color:#979796;
+	font-size:14px;
+	outline:none;
+	transition:all .5s linear;
+}
+.login_fgtpwd{
+	color:#005aa0;
+	margin-left:3px;
+}
+#checkin .login_fgtpwd:hover{
+	color:#005aa0;
+	text-decoration:underline;
+}
+#enter .login_drag{
+	font-size:18px;
+	padding-left:100px;
+	padding-top:20px;
+	margin-top:0;
+	height:50px;
+	box-sizing:border-box;
+}
+.login_btn{
+	width:140px;
+	height:35px;
+	line-height:35px;
+	color:#fff;
+	background:#FF6634;
+	cursor:pointer;
+	display:block;
+	font-size:18px;
+	letter-spacing:2px;
+	border:none;
+	border-radius:4px;
+	margin:5px auto;
+	font-family:"微软雅黑",Arial;
+	margin-left:80px;
+	outline:none;
+	padding-left:10px;
+	box-sizing:border-box;
+}
+.login_5s{
+	color:#FF6634;
+	text-decoration:underline;
+}
+#enter div:last-child p:last-child,#register div:first-child p:last-child{
+	padding:7px 0;
+	margin-left:85px;
+}
+.valiName{
+	display:none;
+	position:absolute;
+	height:24px;
+	line-height:24px;
+	border-radius:4px;
+	padding-left:7px;
+	width:240px;
+	margin-left:5px;
+	color:#EB3C28;
+	border:1px solid #EB3C28;
+	background:#fff;
+	margin-top:2px;
+	transition:all .3s linear;
+	z-index:20;
+}
+.valiPwd{
+	display:none;
+	position:absolute;
+	height:24px;
+	width:110px;
+	line-height:24px;
+	border-radius:4px;
+	padding-left:7px;
+	color:#EB3C28;
+	border:1px solid #EB3C28;
+	background:#fff;
+	margin-left:80px;
+	margin-top:2px;
+	transition:all .3s linear;
+	z-index:20;
+}
+#enter .getFocus{
+	border-color:#FF0000;
+}
+#register .getFocus1{
+	border-color:#000;
+}
+#enter div:last-child form span,#register div:first-child form span{
+	display:block;
+	position:absolute;
+	font-size:14px;
+	color:#979796;
+	left:50px;
+	width:60px;
+	z-index:10;	
+}
+.getValue1{
+	bottom:197px;
+}
+.getValue2{
+	bottom:147px;
+}
+.pos_rel{
+	position:relative;
+}
+#register>div:first-child{
+	padding:0 40px;
+	margin-top:10px;
+}
+.login_ipt{
+	height:32px;
+	line-height:32px;
+	padding:0 6px;
+	width:280px;
+	margin-top:15px;
+	border:1px solid #d5d5d5;
+	border-radius:4px;
+	color:#979796;
+	font-size:14px;
+	outline:none;
+	transition:all .5s linear;
+}
+.getValue3{
+	top:87px;
+}
+.getValue4{
+	top:136px;
+}
+.getValue5{
+	top:185px;
+}
+#register div:first-child form input:nth-child(7){
+	vertical-align:middle;
+}
+.chb{
+	display:inline-block;
+	padding-top:10px;
+	color:#005aa0;
+	margin-bottom:15px;
+}
+#register div:last-child .p1{
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.tab_show{
+	display:block;
+}
+.tab_hidden{
+	display:none;
+}
+.tab_fade{
+	opacity:0;
+	overflow:hidden;
+	transition:all .3s linear;
+	z-index:2;
+}
+.tab_in{
+	opacity:1;
+	z-index:10;
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/checkin.css">
+	</head>
+	<body>
+		<div id="checkin">
+			<div class="checkin_box">
+				<ul>
+					<li class="current" onclick="toggle3(0)"><a>登录</a></li>
+					<li onclick="toggle3(1)"><a>注册</a></li>
+					<li><a href=""><img src="../images/close.png"></a></li>
+				</ul>
+				<div class="container">
+					<div id="enter" class="tab_show">
+						<div>
+							<p class="p1">
+								<a href=""><img src="../images/qq.png"></a>
+								<a href=""><img src="../images/weixin.png"></a>
+								<a href=""><img src="../images/weibo.png"></a>
+							</p>
+							<p class="p2">第三方账号直接登录</p>
+							<p class="p3">
+								<i></i><b>or</b><i></i>
+							</p>
+						</div>
+						<div>
+							<p>DOTA2账号登录</p>
+							<form action="" name="msgBox" onsubmit="valiAll(this,event)">
+								<input name="userName" class="login_input"
+								onfocus="getFocus1(this)" onblur="valiName(this)">
+								<span class="getValue1">输入昵称</span>
+								<div class="valiName">10个字符以内的字母、数字和下划线的组合</div>
+								<input type="password" name="pwd" class="login_input" 
+								onfocus="getFocus2(this)" onblur="valiPwd(this)">	
+								<span class="getValue2">输入密码</span>
+								<a href="" class="login_fgtpwd">忘记密码?</a>
+								<div class="valiPwd">密码必须为6位数字</div>
+							</form>
+							<div class="login_drag">拖拽模块</div>
+							<input type="submit" class="login_btn" value="登录">
+							<p>没有账号？<a href="" class="login_5s">5秒快速注册</a></p>
+						</div>
+					</div>
+					<div id="register" class="tab_hidden">
+						<div>
+							<form action="" class="msgBox1">
+								<input class="login_ipt" onfocus="getFocus3(this)" 
+								onblur="valiName1(this)">
+								<span class="getValue3">输入昵称</span>
+								<input type="password" class="login_ipt"
+								onfocus="getFocus4(this)" onblur="valiPwd1(this)">
+								<span class="getValue4">输入密码</span>
+								<input type="password" class="login_ipt" 
+								onfocus="getFocus5(this)" onblur="valiPwd2(this)">
+								<span class="getValue5">确认密码</span>
+								<input type="checkbox" id="chb" checked>
+								<label for="chb">同意<a class="chb">《DOTA2注册协议及版权声明》</a></label>
+								<input type="submit" class="login_btn" value="注册">
+								<p>已有斗鱼账号？<a href="" class="login_5s">马上登录</a></p>
+							</form>
+						</div>
+						<div>
+							<p class="p3">
+								<i></i><b>or</b><i></i>
+							</p>
+							<p class="p1">
+								<a href=""><img src="../images/qq.png"></a>
+								<a href=""><img src="../images/weixin.png"></a>
+								<a href=""><img src="../images/weibo.png"></a>
+							</p>
+							<p class="p2">第三方账号直接登录</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	<script src="../js/checkin.js"></script>
+	</body>
+</html>

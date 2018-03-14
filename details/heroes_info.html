@@ -1,0 +1,1103 @@
+<!doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/heroes_info.css">
+		<link rel="stylesheet" href="../css/head_foot.css"/>
+	</head>
+	<body>
+		<header>
+		</header>
+		<section>
+			<div class="bg">
+				<div class="hero_top_wrap clearfix">
+					<ul class="top_tab_ul">
+						<li>
+							<a class="on" href="">全部英雄</a>
+						</li>
+					</ul>
+					<div class="top_search">
+						<div class="search_wrap">
+							<a href="" class="btn_shoucang" style="float: right;">收藏</a>
+						</div>
+					
+					</div>
+				</div>
+				<div class="black_cont" style="height:660px;">
+					<div class="goods_main">
+						<div class="hero_tit_box" id="heroBioDynamic">
+							<div class="hero_name" id="heroBioName">炼金术士</div>
+							<div class="hero_roles" id="heroBioRoles">
+								<span class="bioTextAttack">近程</span>
+								 - 核心 - 辅助 - 耐久 - 控制 - 先手 - 爆发
+							</div>
+						</div>
+						<!--<div id="heroFilterArea">-->
+							<!--过滤器&nbsp;&nbsp;&nbsp;-->
+							<!--<select name="" id="filterRole" class="filterSelect">-->
+								<!--<option value="">按定位</option>-->
+								<!--<option value="">所有</option>-->
+								<!--<option value="核心">核心</option>-->
+								<!--<option value="控制">控制</option>-->
+								<!--<option value="对线辅助">对线辅助</option>-->
+								<!--<option value="先手">先手</option>-->
+								<!--<option value="打野">打野</option>-->
+								<!--<option value="辅助">辅助</option>-->
+								<!--<option value="耐久">耐久</option>-->
+								<!--<option value="爆发">爆发</option>-->
+								<!--<option value="推进">推进</option>-->
+								<!--<option value="逃生">逃生</option>-->
+							<!--</select>-->
+							<!--&nbsp;&nbsp;&nbsp;-->
+							<!--<select name="" id="filterAttack" class="filterSelect">-->
+								<!--<option value="">按攻击类型</option>-->
+								<!--<option value="">所有</option>-->
+								<!--<option value="melee">近程</option>-->
+								<!--<option value="ranged">远程</option>-->
+							<!--</select>-->
+							<!--&nbsp;&nbsp;&nbsp;-->
+							<!--<select name="" id="filterName" class="filterSelect">-->
+								<!--<option value="">英雄名称</option>-->
+								<!--<option value="">所有</option>-->
+								<!--<option value="4">敌法师</option>-->
+								<!--<option value="6">斧王</option>-->
+								<!--<option value="7">祸乱之源</option>-->
+								<!--<option value="10">嗜血狂魔</option>-->
+								<!--<option value="19">水晶室女</option>-->
+								<!--<option value="25">卓尔游侠</option>-->
+								<!--<option value="27">撼地者</option>-->
+								<!--<option value="38">主宰</option>-->
+								<!--<option value="53">米拉娜</option>-->
+								<!--<option value="57">影魔</option>-->
+								<!--<option value="54">变体精灵</option>-->
+								<!--<option value="65">幻影长矛手</option>-->
+								<!--<option value="67">帕克</option>-->
+								<!--<option value="68">帕吉</option>-->
+								<!--<option value="72">剃刀</option>-->
+								<!--<option value="75">沙王</option>-->
+								<!--<option value="87">风暴之灵</option>-->
+								<!--<option value="88">斯温</option>-->
+								<!--<option value="94">小小</option>-->
+								<!--<option value="100">复仇之魂</option>-->
+								<!--<option value="106">风行者</option>-->
+								<!--<option value="110">宙斯</option>-->
+								<!--<option value="40">昆卡</option>-->
+								<!--<option value="45">莉娜</option>-->
+								<!--<option value="43">巫妖</option>-->
+								<!--<option value="46">莱恩</option>-->
+								<!--<option value="77">暗影萨满</option>-->
+								<!--<option value="82">斯拉达</option>-->
+								<!--<option value="92">潮汐猎人</option>-->
+								<!--<option value="109">巫医</option>-->
+								<!--<option value="73">力丸</option>-->
+								<!--<option value="31">谜团</option>-->
+								<!--<option value="93">修补匠</option>-->
+								<!--<option value="84">狙击手</option>-->
+								<!--<option value="56">瘟疫法师</option>-->
+								<!--<option value="104">术士</option>-->
+								<!--<option value="9">兽王</option>-->
+								<!--<option value="70">痛苦女王</option>-->
+								<!--<option value="101">剧毒术士</option>-->
+								<!--<option value="32">虚空假面</option>-->
+								<!--<option value="80">冥魂大帝</option>-->
+								<!--<option value="22">死亡先知</option>-->
+								<!--<option value="64">幻影刺客</option>-->
+								<!--<option value="69">帕格纳</option>-->
+								<!--<option value="90">圣堂刺客</option>-->
+								<!--<option value="102">冥界亚龙</option>-->
+								<!--<option value="48">露娜</option>-->
+								<!--<option value="111">龙骑士</option>-->
+								<!--<option value="21">戴泽</option>-->
+								<!--<option value="71">发条技师</option>-->
+								<!--<option value="42">拉席克</option>-->
+								<!--<option value="33">先知</option>-->
+								<!--<option value="44">噬魂鬼</option>-->
+								<!--<option value="20">黑暗贤者</option>-->
+								<!--<option value="18">克林克兹</option>-->
+								<!--<option value="62">全能骑士</option>-->
+								<!--<option value="30">魅惑魔女</option>-->
+								<!--<option value="35">哈斯卡</option>-->
+								<!--<option value="58">暗夜魔王</option>-->
+								<!--<option value="14">育母蜘蛛</option>-->
+								<!--<option value="b11">赏金猎人</option>-->
+								<!--<option value="105">编织者</option>-->
+								<!--<option value="37">杰奇洛</option>-->
+								<!--<option value="8">蝙蝠骑士</option>-->
+								<!--<option value="17">陈</option>-->
+								<!--<option value="85">幽鬼</option>-->
+								<!--<option value="24">末日使者</option>-->
+								<!--<option value="3">远古冰魄</option>-->
+								<!--<option value="99">熊战士</option>-->
+								<!--<option value="86">裂魂人</option>-->
+								<!--<option value="34">矮人直升机</option>-->
+								<!--<option value="2">炼金术士</option>-->
+								<!--<option value="36">祈求者</option>-->
+								<!--<option value="79">沉默术士</option>-->
+								<!--<option value="60">殁境神蚀者</option>-->
+								<!--<option value="49">狼人</option>-->
+								<!--<option value="12">酒仙</option>-->
+								<!--<option value="76">暗影恶魔</option>-->
+								<!--<option value="47">德鲁伊</option>-->
+								<!--<option value="16">混沌骑士</option>-->
+								<!--<option value="52">米波</option>-->
+								<!--<option value="95">树精卫士</option>-->
+								<!--<option value="61">食人魔魔法师</option>-->
+								<!--<option value="98">不朽尸王</option>-->
+								<!--<option value="74">拉比克</option>-->
+								<!--<option value="23">干扰者</option>-->
+								<!--<option value="59">司夜刺客</option>-->
+								<!--<option value="55">娜迦海妖</option>-->
+								<!--<option value="39">光之守卫</option>-->
+								<!--<option value="108">艾欧</option>-->
+								<!--<option value="103">维萨吉</option>-->
+								<!--<option value="83">斯拉克</option>-->
+								<!--<option value="51">美杜莎</option>-->
+								<!--<option value="96">巨魔战将</option>-->
+								<!--<option value="15">半人马战行者</option>-->
+								<!--<option value="50">马格纳斯</option>-->
+								<!--<option value="78">伐木机</option>-->
+								<!--<option value="13">钢背兽</option>-->
+								<!--<option value="97">巨牙海民</option>-->
+								<!--<option value="81">天怒法师</option>-->
+								<!--<option value="1">亚巴顿</option>-->
+								<!--<option value="28">上古巨神</option>-->
+								<!--<option value="41">军团指挥官</option>-->
+								<!--<option value="29">灰烬之灵</option>-->
+								<!--<option value="26">大地之灵</option>-->
+								<!--<option value="91">恐怖利刃</option>-->
+								<!--<option value="66">凤凰</option>-->
+								<!--<option value="63">神谕者</option>-->
+								<!--<option value="89">工程师</option>-->
+								<!--<option value="107">寒冬飞龙</option>-->
+								<!--<option value="5">天穹守望者</option>-->
+							<!--</select>-->
+						<!--</div>-->
+						<div id="herochoice" style="width:870px; margin:0 auto; padding-top:20px;">
+							<ul class="hero_list">
+								<li class="hero_list_tit" style="z-index:2">
+									<span class="str">力量</span>
+								</li>
+								<li style="z-index:2">
+									<a id="link_earthshaker" class="heroPickerIconLink" target="_blank" href="" data-triggle="27">
+										<img id="hover_earthshaker" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/earthshaker_hphover.png">
+										<img id="base_earthshaker" class="heroHoverSmall" 
+										src="../images/heroes/earthshaker_sb.png" >
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_sven" class="heroPickerIconLink" target="_blank" href="" data-triggle="88">
+										<img id="hover_sven" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/sven_hphover.png">
+										<img id="base_sven" class="heroHoverSmall" 
+										src="../images/heroes/sven_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_tiny" class="heroPickerIconLink" target="_blank" href="" data-triggle="94">
+										<img id="hover_tiny" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/tiny_hphover.png">
+										<img id="base_tiny" class="heroHoverSmall" 
+										src="../images/heroes/tiny_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_kunkka" class="heroPickerIconLink" target="_blank" href="" data-triggle="40">
+										<img id="hover_kunkka" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/kunkka_hphover.png">
+										<img id="base_kunkka" class="heroHoverSmall" 
+										src="../images/heroes/kunkka_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_beastmaster" class="heroPickerIconLink" target="_blank" href="" data-triggle="9">
+										<img id="hover_beastmaster" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/beastmaster_hphover.png">
+										<img id="base_beastmaster" class="heroHoverSmall" 
+										src="../images/heroes/beastmaster_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_dragon_knight" class="heroPickerIconLink" target="_blank" href="" data-triggle="111">
+										<img id="hover_dragon_knight" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/dragon_knight_hphover.png">
+										<img id="base_dragon_knight" class="heroHoverSmall" 
+										src="../images/heroes/dragon_knight_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_rattletrap" class="heroPickerIconLink" target="_blank" href="" data-triggle="71">
+										<img id="hover_rattletrap" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/rattletrap_hphover.png">
+										<img id="base_rattletrap" class="heroHoverSmall" 
+										src="../images/heroes/rattletrap_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_omniknight" class="heroPickerIconLink" target="_blank" href="" data-triggle="62">
+										<img id="hover_omniknight" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/omniknight_hphover.png">
+										<img id="base_omniknight" class="heroHoverSmall" 
+										src="../images/heroes/omniknight_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_huskar" class="heroPickerIconLink" target="_blank" href="" data-triggle="35">
+										<img id="hover_huskar" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/huskar_hphover.png">
+										<img id="base_huskar" class="heroHoverSmall" 
+										src="../images/heroes/huskar_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_alchemist" class="heroPickerIconLink" target="_blank" href="" data-triggle="2">
+										<img id="hover_alchemist" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/alchemist_hphover.png">
+										<img id="base_alchemist" class="heroHoverSmall" 
+										src="../images/heroes/alchemist_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_brewmaster" class="heroPickerIconLink" target="_blank" href="" data-triggle="12">
+										<img id="hover_brewmaster" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/brewmaster_hphover.png">
+										<img id="base_brewmaster" class="heroHoverSmall" 
+										src="../images/heroes/brewmaster_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_treant" class="heroPickerIconLink" target="_blank" href="" data-triggle="95">
+										<img id="hover_treant" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/treant_hphover.png">
+										<img id="base_treant" class="heroHoverSmall" 
+										src="../images/heroes/treant_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_wisp" class="heroPickerIconLink" target="_blank" href="" data-triggle="108">
+										<img id="hover_wisp" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/wisp_hphover.png">
+										<img id="base_wisp" class="heroHoverSmall" 
+										src="../images/heroes/wisp_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_centaur" class="heroPickerIconLink" target="_blank" href="" data-triggle="15">
+										<img id="hover_centaur" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/centaur_hphover.png">
+										<img id="base_centaur" class="heroHoverSmall" 
+										src="../images/heroes/centaur_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_shredder" class="heroPickerIconLink" target="_blank" href="" data-triggle="78">
+										<img id="hover_shredder" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/shredder_hphover.png">
+										<img id="base_shredder" class="heroHoverSmall" 
+										src="../images/heroes/shredder_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_bristleback" class="heroPickerIconLink" target="_blank" href="" data-triggle="13">
+										<img id="hover_bristleback" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/bristleback_hphover.png">
+										<img id="base_bristleback" class="heroHoverSmall" 
+										src="../images/heroes/bristleback_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_tusk" class="heroPickerIconLink" target="_blank" href="" data-triggle="97">
+										<img id="hover_tusk" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/tusk_hphover.png">
+										<img id="base_tusk" class="heroHoverSmall" 
+										src="../images/heroes/tusk_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_elder_titan" class="heroPickerIconLink" target="_blank" href="" data-triggle="28">
+										<img id="hover_elder_titan" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/elder_titan_hphover.png">
+										<img id="base_elder_titan" class="heroHoverSmall" 
+										src="../images/heroes/elder_titan_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_legion_commander" class="heroPickerIconLink" target="_blank" href="" data-triggle="41">
+										<img id="hover_legion_commander" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/legion_commander_hphover.png">
+										<img id="base_legion_commander" class="heroHoverSmall" 
+										src="../images/heroes/legion_commander_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_earth_spirit" class="heroPickerIconLink" target="_blank" href="" data-triggle="26">
+										<img id="hover_earth_spirit" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/earth_spirit_hphover.png">
+										<img id="base_earth_spirit" class="heroHoverSmall" 
+										src="../images/heroes/earth_spirit_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_phoenix" class="heroPickerIconLink" target="_blank" href="" data-triggle="66">
+										<img id="hover_phoenix" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/phoenix_hphover.png">
+										<img id="base_phoenix" class="heroHoverSmall" 
+										src="../images/heroes/phoenix_sb.png">
+									</a>
+								</li>
+							</ul>
+							<ul class="hero_list">
+								<li class="hero_list_tit" style="z-index:2">
+									<span class="agi">敏捷</span>
+								</li>
+								<li style="z-index:2">
+									<a id="link_antimage" class="heroPickerIconLink" target="_blank" href="" data-triggle="4">
+										<img id="hover_antimage" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/antimage_hphover.png">
+										<img id="base_antimage" class="heroHoverSmall" 
+										src="../images/heroes/antimage_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_drow_ranger" class="heroPickerIconLink" target="_blank" href="" data-triggle="25">
+										<img id="hover_drow_ranger" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/drow_ranger_hphover.png">
+										<img id="base_drow_ranger" class="heroHoverSmall" 
+										src="../images/heroes/drow_ranger_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_juggernaut" class="heroPickerIconLink" target="_blank" href="" data-triggle="38">
+										<img id="hover_juggernaut" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/juggernaut_hphover.png">
+										<img id="base_juggernaut" class="heroHoverSmall" 
+										src="../images/heroes/juggernaut_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_mirana" class="heroPickerIconLink" target="_blank" href="" data-triggle="53">
+										<img id="hover_mirana" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/mirana_hphover.png">
+										<img id="base_mirana" class="heroHoverSmall" 
+										src="../images/heroes/mirana_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_morphling" class="heroPickerIconLink" target="_blank" href="" data-triggle="54">
+										<img id="hover_morphling" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/morphling_hphover.png">
+										<img id="base_morphling" class="heroHoverSmall" 
+										src="../images/heroes/morphling_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_phantom_lancer" class="heroPickerIconLink" target="_blank" href="" data-triggle="65">
+										<img id="hover_phantom_lancer" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/phantom_lancer_hphover.png">
+										<img id="base_phantom_lancer" class="heroHoverSmall" 
+										src="../images/heroes/phantom_lancer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_vengefulspirit" class="heroPickerIconLink" target="_blank" href="" data-triggle="100">
+										<img id="hover_vengefulspirit" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/vengefulspirit_hphover.png">
+										<img id="base_vengefulspirit" class="heroHoverSmall" 
+										src="../images/heroes/vengefulspirit_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_riki" class="heroPickerIconLink" target="_blank" href="" data-triggle="73">
+										<img id="hover_riki" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/riki_hphover.png">
+										<img id="base_riki" class="heroHoverSmall" 
+										src="../images/heroes/riki_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_sniper" class="heroPickerIconLink" target="_blank" href="" data-triggle="84">
+										<img id="hover_sniper" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/sniper_hphover.png">
+										<img id="base_sniper" class="heroHoverSmall" 
+										src="../images/heroes/sniper_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_templar_assassin" class="heroPickerIconLink" target="_blank" href="" data-triggle="90">
+										<img id="hover_templar_assassin" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/templar_assassin_hphover.png">
+										<img id="base_templar_assassin" class="heroHoverSmall" 
+										src="../images/heroes/templar_assassin_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_luna" class="heroPickerIconLink" target="_blank" href="" data-triggle="48">
+										<img id="hover_luna" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/luna_hphover.png">
+										<img id="base_luna" class="heroHoverSmall" 
+										src="../images/heroes/luna_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_bounty_hunter" class="heroPickerIconLink" target="_blank" href="" data-triggle="11">
+										<img id="hover_bounty_hunter" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/bounty_hunter_hphover.png">
+										<img id="base_bounty_hunter" class="heroHoverSmall" 
+										src="../images/heroes/bounty_hunter_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_ursa" class="heroPickerIconLink" target="_blank" href="" data-triggle="99">
+										<img id="hover_ursa" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/ursa_hphover.png">
+										<img id="base_ursa" class="heroHoverSmall" 
+										src="../images/heroes/ursa_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_gyrocopter" class="heroPickerIconLink" target="_blank" href="" data-triggle="34">
+										<img id="hover_gyrocopter" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/gyrocopter_hphover.png">
+										<img id="base_gyrocopter" class="heroHoverSmall" 
+										src="../images/heroes/gyrocopter_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_lone_druid" class="heroPickerIconLink" target="_blank" href="" data-triggle="47">
+										<img id="hover_lone_druid" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/lone_druid_hphover.png">
+										<img id="base_lone_druid" class="heroHoverSmall" 
+										src="../images/heroes/lone_druid_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_naga_siren" class="heroPickerIconLink" target="_blank" href="" data-triggle="55">
+										<img id="hover_naga_siren" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/naga_siren_hphover.png">
+										<img id="base_naga_siren" class="heroHoverSmall" 
+										src="../images/heroes/naga_siren_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_troll_warlord" class="heroPickerIconLink" target="_blank" href="" data-triggle="96">
+										<img id="hover_troll_warlord" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/troll_warlord_hphover.png">
+										<img id="base_troll_warlord" class="heroHoverSmall" 
+										src="../images/heroes/troll_warlord_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_ember_spirit" class="heroPickerIconLink" target="_blank" href="" data-triggle="29">
+										<img id="hover_ember_spirit" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/ember_spirit_hphover.png">
+										<img id="base_ember_spirit" class="heroHoverSmall" 
+										src="../images/heroes/ember_spirit_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_arc_warden" class="heroPickerIconLink" target="_blank" href="" data-triggle="5">
+										<img id="hover_arc_warden" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/arc_warden_hphover.png">
+										<img id="base_arc_warden" class="heroHoverSmall" 
+										src="../images/heroes/arc_warden_sb.png">
+									</a>
+								</li>
+							</ul>
+							<ul class="hero_list">
+								<li class="hero_list_tit" style="z-index:2">
+									<span class="int">智力</span>
+								</li>
+								<li style="z-index:2">
+									<a id="link_crystal_maiden" class="heroPickerIconLink" target="_blank" href="" data-triggle="19">
+										<img id="hover_crystal_maiden" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/crystal_maiden_hphover.png">
+										<img id="base_crystal_maiden" class="heroHoverSmall" 
+										src="../images/heroes/crystal_maiden_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_puck" class="heroPickerIconLink" target="_blank" href="" data-triggle="67">
+										<img id="hover_puck" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/puck_hphover.png">
+										<img id="base_puck" class="heroHoverSmall" 
+										src="../images/heroes/puck_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_storm_spirit" class="heroPickerIconLink" target="_blank" href="" data-triggle="87">
+										<img id="hover_storm_spirit" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/storm_spirit_hphover.png">
+										<img id="base_storm_spirit" class="heroHoverSmall" 
+										src="../images/heroes/storm_spirit_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_windrunner" class="heroPickerIconLink" target="_blank" href="" data-triggle="106">
+										<img id="hover_windrunner" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/windrunner_hphover.png">
+										<img id="base_windrunner" class="heroHoverSmall" 
+										src="../images/heroes/windrunner_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_zuus" class="heroPickerIconLink" target="_blank" href="" data-triggle="110">
+										<img id="hover_zuus" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/zuus_hphover.png">
+										<img id="base_zuus" class="heroHoverSmall" 
+										src="../images/heroes/zuus_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_lina" class="heroPickerIconLink" target="_blank" href="" data-triggle="45">
+										<img id="hover_lina" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/lina_hphover.png">
+										<img id="base_lina" class="heroHoverSmall" 
+										src="../images/heroes/lina_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_shadow_shaman" class="heroPickerIconLink" target="_blank" href="" data-triggle="77">
+										<img id="hover_shadow_shaman" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/shadow_shaman_hphover.png">
+										<img id="base_shadow_shaman" class="heroHoverSmall" 
+										src="../images/heroes/shadow_shaman_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_tinker" class="heroPickerIconLink" target="_blank" href="" data-triggle="93">
+										<img id="hover_tinker" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/tinker_hphover.png">
+										<img id="base_tinker" class="heroHoverSmall" 
+										src="../images/heroes/tinker_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_furion" class="heroPickerIconLink" target="_blank" href="" data-triggle="33">
+										<img id="hover_furion" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/furion_hphover.png">
+										<img id="base_furion" class="heroHoverSmall" 
+										src="../images/heroes/furion_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_enchantress" class="heroPickerIconLink" target="_blank" href="" data-triggle="30">
+										<img id="hover_enchantress" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/enchantress_hphover.png">
+										<img id="base_enchantress" class="heroHoverSmall" 
+										src="../images/heroes/enchantress_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_jakiro" class="heroPickerIconLink" target="_blank" href="" data-triggle="37">
+										<img id="hover_jakiro" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/jakiro_hphover.png">
+										<img id="base_jakiro" class="heroHoverSmall" 
+										src="../images/heroes/jakiro_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_chen" class="heroPickerIconLink" target="_blank" href="" data-triggle="17">
+										<img id="hover_chen" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/chen_hphover.png">
+										<img id="base_chen" class="heroHoverSmall" 
+										src="../images/heroes/chen_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_silencer" class="heroPickerIconLink" target="_blank" href="" data-triggle="79">
+										<img id="hover_silencer" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/silencer_hphover.png">
+										<img id="base_silencer" class="heroHoverSmall" 
+										src="../images/heroes/silencer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_ogre_magi" class="heroPickerIconLink" target="_blank" href="" data-triggle="61">
+										<img id="hover_ogre_magi" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/ogre_magi_hphover.png">
+										<img id="base_ogre_magi" class="heroHoverSmall" 
+										src="../images/heroes/ogre_magi_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_rubick" class="heroPickerIconLink" target="_blank" href="" data-triggle="74">
+										<img id="hover_rubick" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/rubick_hphover.png">
+										<img id="base_rubick" class="heroHoverSmall" 
+										src="../images/heroes/rubick_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_disruptor" class="heroPickerIconLink" target="_blank" href="" data-triggle="23">
+										<img id="hover_disruptor" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/disruptor_hphover.png">
+										<img id="base_disruptor" class="heroHoverSmall" 
+										src="../images/heroes/disruptor_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_keeper_of_the_light" class="heroPickerIconLink" target="_blank" href="" data-triggle="39">
+										<img id="hover_keeper_of_the_light" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/keeper_of_the_light_hphover.png">
+										<img id="base_keeper_of_the_light" class="heroHoverSmall" 
+										src="../images/heroes/keeper_of_the_light_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_skywrath_mage" class="heroPickerIconLink" target="_blank" href="" data-triggle="81">
+										<img id="hover_skywrath_mage" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/skywrath_mage_hphover.png">
+										<img id="base_skywrath_mage" class="heroHoverSmall" 
+										src="../images/heroes/skywrath_mage_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_oracle" class="heroPickerIconLink" target="_blank" href="" data-triggle="63">
+										<img id="hover_oracle" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/oracle_hphover.png">
+										<img id="base_oracle" class="heroHoverSmall" 
+										src="../images/heroes/oracle_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_techies" class="heroPickerIconLink" target="_blank" href="" data-triggle="89">
+										<img id="hover_techies" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/techies_hphover.png">
+										<img id="base_techies" class="heroHoverSmall" 
+										src="../images/heroes/techies_sb.png">
+									</a>
+								</li>
+							</ul>
+							<ul class="hero_list" style="clear:left;">
+								<li style="z-index:2">
+									<a id="link_axe" class="heroPickerIconLink" target="_blank" href="" data-triggle="6">
+										<img id="hover_axe" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/axe_hphover.png">
+										<img id="base_axe" class="heroHoverSmall" 
+										src="../images/heroes/axe_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_pudge" class="heroPickerIconLink" target="_blank" href="" data-triggle="68">
+										<img id="hover_pudge" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/pudge_hphover.png">
+										<img id="base_pudge" class="heroHoverSmall" 
+										src="../images/heroes/pudge_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_sand_king" class="heroPickerIconLink" target="_blank" href="" data-triggle="75">
+										<img id="hover_sand_king" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/sand_king_hphover.png">
+										<img id="base_sand_king" class="heroHoverSmall" 
+										src="../images/heroes/sand_king_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_slardar" class="heroPickerIconLink" target="_blank" href="" data-triggle="82">
+										<img id="hover_slardar" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/slardar_hphover.png">
+										<img id="base_slardar" class="heroHoverSmall" 
+										src="../images/heroes/slardar_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_tidehunter" class="heroPickerIconLink" target="_blank" href="" data-triggle="92">
+										<img id="hover_tidehunter" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/tidehunter_hphover.png">
+										<img id="base_tidehunter" class="heroHoverSmall" 
+										src="../images/heroes/tidehunter_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_wraith_king" class="heroPickerIconLink" target="_blank" href="" data-triggle="80">
+										<img id="hover_wraith_king" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/wraith_king_hphover.png">
+										<img id="base_wraith_king" class="heroHoverSmall" 
+										src="../images/heroes/wraith_king_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_life_stealer" class="heroPickerIconLink" target="_blank" href="" data-triggle="44">
+										<img id="hover_life_stealer" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/life_stealer_hphover.png">
+										<img id="base_life_stealer" class="heroHoverSmall" 
+										src="../images/heroes/life_stealer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_night_stalker" class="heroPickerIconLink" target="_blank" href="" data-triggle="58">
+										<img id="hover_night_stalker" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/night_stalker_hphover.png">
+										<img id="base_night_stalker" class="heroHoverSmall" 
+										src="../images/heroes/night_stalker_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_doom" class="heroPickerIconLink" target="_blank" href="" data-triggle="24">
+										<img id="hover_doom" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/doom_bringer_hphover.png">
+										<img id="base_doom" class="heroHoverSmall" 
+										src="../images/heroes/doom_bringer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_spirit_breaker" class="heroPickerIconLink" target="_blank" href="" data-triggle="86">
+										<img id="hover_spirit_breaker" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/spirit_breaker_hphover.png">
+										<img id="base_spirit_breaker" class="heroHoverSmall" 
+										src="../images/heroes/spirit_breaker_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_lycan" class="heroPickerIconLink" target="_blank" href="" data-triggle="49">
+										<img id="hover_lycan" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/lycan_hphover.png">
+										<img id="base_lycan" class="heroHoverSmall" 
+										src="../images/heroes/lycan_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_chaos_knight" class="heroPickerIconLink" target="_blank" href="" data-triggle="16">
+										<img id="hover_chaos_knight" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/chaos_knight_hphover.png">
+										<img id="base_chaos_knight" class="heroHoverSmall" 
+										src="../images/heroes/chaos_knight_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_undying" class="heroPickerIconLink" target="_blank" href="" data-triggle="98">
+										<img id="hover_undying" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/undying_hphover.png">
+										<img id="base_undying" class="heroHoverSmall" 
+										src="../images/heroes/undying_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_magnataur" class="heroPickerIconLink" target="_blank" href="" data-triggle="50">
+										<img id="hover_magnataur" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/magnataur_hphover.png">
+										<img id="base_magnataur" class="heroHoverSmall" 
+										src="../images/heroes/magnataur_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_abaddon" class="heroPickerIconLink" target="_blank" href="" data-triggle="1">
+										<img id="hover_abaddon" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/abaddon_hphover.png">
+										<img id="base_abaddon" class="heroHoverSmall" 
+										src="../images/heroes/abaddon_sb.png">
+									</a>
+								</li>
+							</ul>
+							<ul class="hero_list">
+								<li style="z-index:2">
+									<a id="link_bloodseeker" class="heroPickerIconLink" target="_blank" href="" data-triggle="10">
+										<img id="hover_bloodseeker" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/bloodseeker_hphover.png">
+										<img id="base_bloodseeker" class="heroHoverSmall" 
+										src="../images/heroes/bloodseeker_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_nevermore" class="heroPickerIconLink" target="_blank" href="" data-triggle="57">
+										<img id="hover_nevermore" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/nevermore_hphover.png">
+										<img id="base_nevermore" class="heroHoverSmall" 
+										src="../images/heroes/nevermore_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_razor" class="heroPickerIconLink" target="_blank" href="" data-triggle="72">
+										<img id="hover_razor" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/razor_hphover.png">
+										<img id="base_razor" class="heroHoverSmall" 
+										src="../images/heroes/razor_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_venomancer" class="heroPickerIconLink" target="_blank" href="" data-triggle="101">
+										<img id="hover_venomancer" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/venomancer_hphover.png">
+										<img id="base_venomancer" class="heroHoverSmall" 
+										src="../images/heroes/venomancer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_faceless_void" class="heroPickerIconLink" target="_blank" href="" data-triggle="32">
+										<img id="hover_faceless_void" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/faceless_void_hphover.png">
+										<img id="base_faceless_void" class="heroHoverSmall" 
+										src="../images/heroes/faceless_void_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_phantom_assassin" class="heroPickerIconLink" target="_blank" href="" data-triggle="64">
+										<img id="hover_phantom_assassin" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/phantom_assassin_hphover.png">
+										<img id="base_phantom_assassin" class="heroHoverSmall" 
+										src="../images/heroes/phantom_assassin_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_viper" class="heroPickerIconLink" target="_blank" href="" data-triggle="102">
+										<img id="hover_viper" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/viper_hphover.png">
+										<img id="base_viper" class="heroHoverSmall" 
+										src="../images/heroes/viper_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_clinkz" class="heroPickerIconLink" target="_blank" href="" data-triggle="18">
+										<img id="hover_clinkz" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/clinkz_hphover.png">
+										<img id="base_clinkz" class="heroHoverSmall" 
+										src="../images/heroes/clinkz_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_broodmother" class="heroPickerIconLink" target="_blank" href="" data-triggle="14">
+										<img id="hover_broodmother" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/broodmother_hphover.png">
+										<img id="base_broodmother" class="heroHoverSmall" 
+										src="../images/heroes/broodmother_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_weaver" class="heroPickerIconLink" target="_blank" href="" data-triggle="105">
+										<img id="hover_weaver" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/weaver_hphover.png">
+										<img id="base_weaver" class="heroHoverSmall" 
+										src="../images/heroes/weaver_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_spectre" class="heroPickerIconLink" target="_blank" href="" data-triggle="85">
+										<img id="hover_spectre" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/spectre_hphover.png">
+										<img id="base_spectre" class="heroHoverSmall" 
+										src="../images/heroes/spectre_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_meepo" class="heroPickerIconLink" target="_blank" href="" data-triggle="52">
+										<img id="hover_meepo" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/meepo_hphover.png">
+										<img id="base_meepo" class="heroHoverSmall" 
+										src="../images/heroes/meepo_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_nyx_assassin" class="heroPickerIconLink" target="_blank" href="" data-triggle="59">
+										<img id="hover_nyx_assassin" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/nyx_assassin_hphover.png">
+										<img id="base_nyx_assassin" class="heroHoverSmall" 
+										src="../images/heroes/nyx_assassin_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_slark" class="heroPickerIconLink" target="_blank" href="" data-triggle="83">
+										<img id="hover_slark" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/slark_hphover.png">
+										<img id="base_slark" class="heroHoverSmall" 
+										src="../images/heroes/slark_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_medusa" class="heroPickerIconLink" target="_blank" href="" data-triggle="51">
+										<img id="hover_medusa" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/medusa_hphover.png">
+										<img id="base_medusa" class="heroHoverSmall" 
+										src="../images/heroes/medusa_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_terrorblade" class="heroPickerIconLink" target="_blank" href="" data-triggle="91">
+										<img id="hover_terrorblade" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/terrorblade_hphover.png">
+										<img id="base_terrorblade" class="heroHoverSmall" 
+										src="../images/heroes/terrorblade_sb.png">
+									</a>
+								</li>
+							</ul>
+							<ul class="hero_list">
+								<li style="z-index:2">
+									<a id="link_bane" class="heroPickerIconLink" target="_blank" href="" data-triggle="7">
+										<img id="hover_bane" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/bane_hphover.png">
+										<img id="base_bane" class="heroHoverSmall" 
+										src="../images/heroes/bane_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_lich" class="heroPickerIconLink" target="_blank" href="" data-triggle="43">
+										<img id="hover_lich" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/lich_hphover.png">
+										<img id="base_lich" class="heroHoverSmall" 
+										src="../images/heroes/lich_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_lion" class="heroPickerIconLink" target="_blank" href="" data-triggle="46">
+										<img id="hover_lion" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/lion_hphover.png">
+										<img id="base_lion" class="heroHoverSmall" 
+										src="../images/heroes/lion_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_witch_doctor" class="heroPickerIconLink" target="_blank" href="" data-triggle="109">
+										<img id="hover_witch_doctor" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/witch_doctor_hphover.png">
+										<img id="base_witch_doctor" class="heroHoverSmall" 
+										src="../images/heroes/witch_doctor_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_enigma" class="heroPickerIconLink" target="_blank" href="" data-triggle="31">
+										<img id="hover_enigma" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/enigma_hphover.png">
+										<img id="base_enigma" class="heroHoverSmall" 
+										src="../images/heroes/enigma_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_necrolyte" class="heroPickerIconLink" target="_blank" href="" data-triggle="56">
+										<img id="hover_necrolyte" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/necrolyte_hphover.png">
+										<img id="base_necrolyte" class="heroHoverSmall" 
+										src="../images/heroes/necrolyte_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_warlock" class="heroPickerIconLink" target="_blank" href="" data-triggle="104">
+										<img id="hover_warlock" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/warlock_hphover.png">
+										<img id="base_warlock" class="heroHoverSmall" 
+										src="../images/heroes/warlock_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_queenofpain" class="heroPickerIconLink" target="_blank" href="" data-triggle="70">
+										<img id="hover_queenofpain" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/queenofpain_hphover.png">
+										<img id="base_queenofpain" class="heroHoverSmall" 
+										src="../images/heroes/queenofpain_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_death_prophet" class="heroPickerIconLink" target="_blank" href="" data-triggle="22">
+										<img id="hover_death_prophet" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/death_prophet_hphover.png">
+										<img id="base_death_prophet" class="heroHoverSmall" 
+										src="../images/heroes/death_prophet_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_pugna" class="heroPickerIconLink" target="_blank" href="" data-triggle="69">
+										<img id="hover_pugna" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/pugna_hphover.png">
+										<img id="base_pugna" class="heroHoverSmall" 
+										src="../images/heroes/pugna_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_dazzle" class="heroPickerIconLink" target="_blank" href="" data-triggle="21">
+										<img id="hover_dazzle" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/dazzle_hphover.png">
+										<img id="base_dazzle" class="heroHoverSmall" 
+										src="../images/heroes/dazzle_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_leshrac" class="heroPickerIconLink" target="_blank" href="" data-triggle="42">
+										<img id="hover_leshrac" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/leshrac_hphover.png">
+										<img id="base_leshrac" class="heroHoverSmall" 
+										src="../images/heroes/leshrac_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_dark_seer" class="heroPickerIconLink" target="_blank" href="" data-triggle="20">
+										<img id="hover_dark_seer" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/dark_seer_hphover.png">
+										<img id="base_dark_seer" class="heroHoverSmall" 
+										src="../images/heroes/dark_seer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_batrider" class="heroPickerIconLink" target="_blank" href="" data-triggle="8">
+										<img id="hover_batrider" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/batrider_hphover.png">
+										<img id="base_batrider" class="heroHoverSmall" 
+										src="../images/heroes/batrider_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_ancient_apparition" class="heroPickerIconLink" target="_blank" href="" data-triggle="3">
+										<img id="hover_ancient_apparition" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/ancient_apparition_hphover.png">
+										<img id="base_ancient_apparition" class="heroHoverSmall" 
+										src="../images/heroes/ancient_apparition_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_invoker" class="heroPickerIconLink" target="_blank" href="" data-triggle="36">
+										<img id="hover_invoker" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/invoker_hphover.png">
+										<img id="base_invoker" class="heroHoverSmall" 
+										src="../images/heroes/invoker_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_obsidian_destroyer" class="heroPickerIconLink" target="_blank" href="" data-triggle="60">
+										<img id="hover_obsidian_destroyer" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/obsidian_destroyer_hphover.png">
+										<img id="base_obsidian_destroyer" class="heroHoverSmall" 
+										src="../images/heroes/obsidian_destroyer_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_shadow_demon" class="heroPickerIconLink" target="_blank" href="" data-triggle="76">
+										<img id="hover_shadow_demon" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/shadow_demon_hphover.png">
+										<img id="base_shadow_demon" class="heroHoverSmall" 
+										src="../images/heroes/shadow_demon_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_visage" class="heroPickerIconLink" target="_blank" href="" data-triggle="103">
+										<img id="hover_visage" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/visage_hphover.png">
+										<img id="base_visage" class="heroHoverSmall" 
+										src="../images/heroes/visage_sb.png">
+									</a>
+								</li>
+								<li style="z-index:2">
+									<a id="link_winter_wyvern" class="heroPickerIconLink" target="_blank" href="" data-triggle="107">
+										<img id="hover_winter_wyvern" class="heroHoverLarge" style="display:none;" 
+										src="../images/heroes/winter_wyvern_hphover.png">
+										<img id="base_winter_wyvern" class="heroHoverSmall" 
+										src="../images/heroes/winter_wyvern_sb.png">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+		</footer>
+	<script src="../js/jquery-1.11.3.js"></script>
+	<script>
+		$(function(){
+			$('header').load('../php/header.php');
+			$('footer').load('../php/footer.php');
+		})
+	</script>
+	<script src="../js/hero_details.js"></script>
+
+	</body>
+</html>

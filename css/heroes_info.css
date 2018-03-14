@@ -1,0 +1,447 @@
+/*通用属性*/
+body{
+	font:12px "microsoft yahei",Arail,Helvetica,sans-serif;
+	background:#eee;
+	padding:0;
+	margin:0;
+}
+header,nav,section,footer{
+	width:1600px;
+	margin:0 auto;
+}
+ul,ol,p,h1,h2,h3,h4,h5,h6,dd,dl{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#777;
+	text-decoration:none;
+    font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    outline:none;
+}
+a:hover{
+	color:#EF8048;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+img{
+	vertical-align:bottom;
+}
+/* body背景 */
+body{
+	background:#141516;
+}
+/*/!* header *!/*/
+/*header{*/
+	/*width:1920px;*/
+	/*height:80px;*/
+	/*background:url(../images/data2.home.nav.bg.png);*/
+/*}*/
+/*.dropListBg{*/
+	/*padding-top:15px;*/
+	/*height:170px;*/
+	/*font-size:16px;*/
+	/*box-shadow:0 0 5px #1E1F1E;*/
+	/*background-image:linear-gradient(to bottom,#000 40%,transparent);*/
+	/*display:none;*/
+/*}*/
+/*.dropListBg li{*/
+	/*height:32px;*/
+/*}*/
+/*#head_top>ul>li:hover .dropListBg{*/
+	/*display:block;*/
+/*}*/
+/*#head_top{*/
+	/*height:80px;*/
+	/*width:1500px;*/
+	/*margin:0 auto;*/
+/*}*/
+/*nav #container{*/
+	/*margin:0 auto;*/
+	/*width:1600px;*/
+	/*height:384px;*/
+	/*background:url(../images/dota2.header.container.jpg);*/
+/*}*/
+/*#head_top>a>img{*/
+	/*width:260px;*/
+	/*height:40px;*/
+	/*margin:20px 0;*/
+/*}*/
+/*#head_top>p{*/
+	/*float:right;*/
+	/*margin-top:30px;*/
+	/*position:relative;*/
+/*}*/
+/*#head_top>p>input{*/
+	/*border:0;*/
+	/*border-radius:3px;*/
+	/*outline:0;*/
+	/*height:25px;*/
+	/*padding-left:30px;*/
+	/*color:#ddd;*/
+/*}*/
+/*#head_top>p>input:focus{*/
+	/*color:#000;*/
+/*}*/
+/*#head_top>p>button{*/
+	/*height:28px;*/
+	/*width:50px;*/
+	/*border-radius:3px;*/
+	/*border:0;*/
+	/*color:#fff;*/
+	/*background-image:linear-gradient(to top,#430603,#A24526);*/
+	/*text-shadow:0 0 20px #ddd;*/
+	/*cursor:pointer;*/
+/*}*/
+/*#head_top>p>i{*/
+	/*position:absolute;*/
+	/*width:16px;*/
+	/*height:16px;*/
+	/*background:url(../images/data2.home.icons.png) no-repeat -4px -703px;*/
+	/*top:5px;*/
+	/*left:7px;*/
+/*}*/
+/*#head_top>ul{*/
+	/*float:right;*/
+	/*margin-right:160px;*/
+/*}*/
+/*#head_top>ul>li{*/
+	/*float:left;*/
+	/*height:80px;*/
+	/*text-align:center;*/
+	/*width:100px;*/
+	/*padding-top:18px;*/
+	/*box-sizing:border-box;*/
+/*}*/
+/*#head_top>ul>li>a{*/
+	/*display:inline-block;*/
+	/*color:#777;*/
+	/*font-size:16px;*/
+	/*height:62px;*/
+/*}*/
+/*#head_top>ul.items>li:hover{*/
+	/*background:#000;*/
+/*}*/
+/*#head_top>ul>li:hover>a{*/
+	/*color:#EF8048;*/
+/*}*/
+/*#head_top>ul>li a:hover{*/
+	/*color:#EF8048;*/
+	/*text-decoration:none;*/
+/*}*/
+/*#head_top>ul.boardin{*/
+	/*width:100px;*/
+	/*margin:0 20px;*/
+/*}*/
+/*#head_top>ul.boardin>li{*/
+	/*width:100px;*/
+	/*padding-top:32px;*/
+	/*font-size:15px;*/
+	/*color:#777;*/
+/*}*/
+/*#head_top>ul.boardin>li>a{*/
+	/*font-size:15px;*/
+/*}*/
+/*/!*    footer    *!/*/
+/*footer{*/
+	/*height:180px;*/
+	/*margin-top:50px;*/
+	/*width:100%;*/
+	/*background:#0e0e0e;*/
+	/*position:relative;*/
+/*}*/
+/*footer>p{*/
+	/*height:20px;*/
+	/*background:#0A0A0A;*/
+	/*color:#fff;*/
+	/*text-align:center;*/
+/*}*/
+/*footer #container{*/
+	/*width:1200px;*/
+	/*height:200px;*/
+	/*margin:0 auto;*/
+/*}*/
+/*.partner{*/
+	/*margin-left:20px;*/
+	/*position:absolute;*/
+	/*bottom:50px;*/
+/*}*/
+/*.partner li{*/
+	/*float:left;*/
+	/*margin-left:35px;*/
+/*}*/
+/*.partner img{*/
+	/*width:100px;*/
+	/*height:35px;*/
+	/*cursor:pointer;*/
+/*}*/
+/*.partner li:last-child img{*/
+	/*width:150px;*/
+/*}*/
+/*.foot_img{*/
+	/*position:absolute;*/
+	/*bottom:50px;*/
+	/*padding-left:575px;*/
+/*}*/
+/*.foot_img img{*/
+	/*width:50px;*/
+	/*opacity:0.7;*/
+	/*animation:foot_show_in 4s linear infinite;*/
+/*}*/
+/*@keyframes foot_show_in{*/
+	/*0%{*/
+		/*opacity:0.7;*/
+	/*}*/
+	/*50%{*/
+		/*opacity:0;*/
+	/*}*/
+	/*100%{*/
+		/*opacity:0.7;*/
+	/*}*/
+/*}*/
+/*.contactUs{*/
+	/*position:absolute;*/
+	/*bottom:40px;*/
+	/*right:490px;*/
+/*}*/
+/*.contactUs li{*/
+	/*float:left;*/
+	/*margin-left:40px;*/
+	/*height:50px;*/
+	/*line-height:50px;*/
+/*}*/
+/*.contactUs img{*/
+	/*width:50px;*/
+	/*cursor:pointer;*/
+/*}*/
+/*.contactUs a{*/
+	/*font-size:14px;*/
+	/*color:#fff;*/
+/*}*/
+
+
+
+
+
+
+/************************      正文       ****************************/
+.bg{
+	width:1903px;
+	height:860px;
+	margin-left:-150px;
+	background:url(../images/heroes_info/hero_bg.jpg) left top no-repeat #141516;
+}
+.hero_top_wrap{
+	width:982px;
+    height:115px;
+    padding:0 10px;
+    margin:0 auto;
+    background-image:url(../images/heroes_info/hero_top_bg.jpg);
+    overflow:hidden;
+}
+.top_tab_ul{
+    float:left;
+    padding-top:69px;
+    height:42px;
+    overflow:hidden;
+}
+.top_tab_ul li a:hover,.top_tab_ul li a.on{
+    background-position:0 -42px;
+    text-decoration:none;
+}
+.top_tab_ul li a{
+    display:block;
+    width:129px;
+    height:42px;
+    text-align:center;
+    color:#c0c0c0;
+    font:normal 18px/40px "微软雅黑";
+    background:url(../images/heroes_info/top_tab.jpg);
+}
+.top_search{
+    float:right;
+    width:248px;
+    padding-top:22px;
+}
+.search_wrap{
+    width:248px;
+    padding-top:10px;
+    overflow:hidden;
+}
+.btn_shoucang{
+    float:left;
+    background-image:url(../images/heroes_info/btn_shoucang.png);
+}
+.btn_shoucang,.btn_baocuo{
+    width:115px;
+    height:23px;
+    border:3px solid #27292b;
+    text-indent:-9999px;
+}
+.btn_shoucang:hover,.btn_baocuo:hover{
+    border:3px solid #501e19;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0;
+    clear:both;
+}
+.black_cont{
+    width:982px;
+    padding:35px 0 50px;
+    min-height:300px;
+    margin:0 auto;
+    background-color:#0f0f0f;
+}
+.goods_main{
+    padding:0 22px;
+}
+.hero_tit_box{
+    background:#000;
+    margin-bottom:14px;
+    padding:14px 6px;
+    border-radius:5px;
+}
+.hero_name{
+    height:40px;
+    margin-top:15px;
+    text-align:center;
+    font:bold 24px/40px "微软雅黑";
+    color:#c0c0c0;
+}
+.hero_name{
+    line-height:40px;
+    font-size:24px;
+    text-align:center;
+    color:#c4c0c0;
+    padding-bottom:1px;
+    background:url(../images/heroes_info/bor01.jpg) no-repeat center bottom;
+}
+.hero_roles{
+    line-height:18px;
+    text-align:center;
+    font-size:14px;
+    padding-top:2px;
+    color:#c4c0c0;
+}
+.hero_rolesspan {
+    color:#fff;
+}
+.filterSelect{
+    width:150px;
+    padding:3px;
+    font-size:12px;
+    background:#2a2c2d;
+    border-top:1px solid #363939;
+    border-left:1px solid #363939;
+    border-right:1px solid #1b1e1e;
+    border-bottom:1px solid #1b1e1e;
+    color:#999;
+}
+#heroFilterArea{
+    text-align:center;
+    padding-bottom:10px;
+    color:#999;
+	font-family:simsun;
+}
+option{
+    font-weight:normal;
+    display:block;
+    white-space:pre;
+    min-height:1.2em;
+    padding:0px 2px 1px;
+}
+.hero_list{
+    width:278px;
+    padding:0 6px;
+    float:left;
+}
+.hero_list li{
+    width:69px;
+    height:44px;
+    float:left;
+    position:relative;
+}
+.hero_list li.hero_list_tit{
+    width:278px;
+    height:42px;
+    text-align:center;
+}
+.hero_list li.hero_list_tit span.str{
+    background:url(../images/power.png) no-repeat 0 center;
+}
+.hero_list li.hero_list_tit span{
+    padding-left:40px;
+    height:42px;
+    line-height:42px;
+    display:inline-block;
+    font-size:16px;
+    color:#616363;
+}
+.heroPickerIconLink{
+    float:left;
+    position:relative;
+    display:block;
+}
+.heroHoverLarge{
+    width:127px;
+    height:71px;
+    border:4px solid #fff;
+    border-radius:3px;
+    -webkit-box-shadow:0px 0px 4px 4px #1C1E1E;
+    -moz-box-shadow:0px 0px 4px 4px #1c1e1e;
+    -moz-border-radius:3px;
+    box-shadow:0px 0px 4px 4px #1C1E1E;
+    position:absolute;
+    top:-19px;
+    left:-34px;
+    z-index:3;
+    display:none;
+}
+img {
+    border:0;
+}
+.heroHoverSmall{
+    width:59px;
+    height:33px;
+    border:4px solid #000;
+    border-radius:3px;
+}
+.hero_list li.hero_list_tit span.agi{
+    background:url(../images/agility.png) no-repeat 0 center;
+}
+.hero_list li.hero_list_tit span.int {
+    background:url(../images/inteligence.png) no-repeat 0 center;
+}
+/* footer部分 */
+footer{
+	height:200px;
+	margin-top:100px;
+	width:100%;
+	background:#0e0e0e;
+}
+footer>p{
+	height:20px;
+	background:#0A0A0A;
+	color:#fff;
+	text-align:center;
+}
+footer #container{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+}
+
+
+
+.filterUnmatchedHero {
+	filter: alpha(opacity=10);
+	-moz-opacity: .1;
+	opacity: .1;
+	background-color: #000000;
+	cursor: default;
+}
